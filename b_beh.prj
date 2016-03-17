@@ -1,0 +1,5 @@
+vhdl work "look_up.vhd"
+vhdl work "counter_4bits.vhd"
+vhdl work "cordics.vhd"
+vhdl work "top.vhd"
+vhdl work "b.vhd"

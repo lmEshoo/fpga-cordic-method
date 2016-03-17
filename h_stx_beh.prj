@@ -1,0 +1,4 @@
+vhdl isim_temp "look_up.vhd"
+vhdl isim_temp "cordics.vhd"
+vhdl isim_temp "top.vhd"
+vhdl isim_temp "h.vhd"

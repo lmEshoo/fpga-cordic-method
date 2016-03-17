@@ -1,0 +1,4 @@
+vhdl work "look_up.vhd"
+vhdl work "cordics.vhd"
+vhdl work "top.vhd"
+vhdl work "h.vhd"

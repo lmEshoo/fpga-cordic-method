@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "H:/cordic/h_isim_beh.exe" -prj "H:/cordic/h_beh.prj" "work.h" 

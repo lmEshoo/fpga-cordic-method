@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "H:/cordic/counter_4bits.xst" -ofn "H:/cordic/counter_4bits.syr" 
+xst -intstyle ise -ifn "H:/cordic/counter_4bits.xst" -ofn "H:/cordic/counter_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 counter_4bits.ngc counter_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o counter_4bits_map.ncd counter_4bits.ngd counter_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 counter_4bits_map.ncd counter_4bits.ncd counter_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_4bits.twx counter_4bits.ncd -o counter_4bits.twr counter_4bits.pcf 
